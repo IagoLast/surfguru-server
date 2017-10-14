@@ -1,0 +1,15 @@
+{
+	"name": "surfguru-server",
+	"description": "Surfguru rest server",
+	"repository": "https://github.com/IagoLast/surfguru-server",
+	"logo": "https://node-js-sample.herokuapp.com/node.png",
+	"keywords": [
+		"rest",
+		"server",
+		"surfguru",
+		"aemet",
+		"meteosat",
+		"forecast",
+		"weather"
+	]
+}

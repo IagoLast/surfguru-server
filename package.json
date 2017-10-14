@@ -1,0 +1,39 @@
+{
+  "name": "surfguru-server",
+  "version": "1.0.0",
+  "description": "Surfguru rest server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IagoLast/surfguru-server.git"
+  },
+  "keywords": [
+    "rest",
+    "server",
+    "windguru",
+    "meteosat",
+    "forecast",
+    "weather"
+  ],
+  "author": "@iagolast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IagoLast/surfguru-server/issues"
+  },
+  "homepage": "https://github.com/IagoLast/surfguru-server#readme",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "memory-cache": "^0.1.6",
+    "meteosapi": "^1.0.1",
+    "meteoscrapi": "^1.2.1",
+    "request": "^2.79.0",
+    "surfguru-parser": "^1.0.0"
+  },
+  "engines": {
+    "node": "8.1.x"
+  }
+}

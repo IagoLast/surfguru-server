@@ -12,7 +12,11 @@ router.get('/simple/:id', function (req, res) {
 			cache.put(req.originalUrl, data, TTL);
 			res.json(data);
 		})
-		.catch(err => res.status(err.statusCode).json(err.statusCode));
+		.catch(err => {
+			console.error(err);
+			res.status(500).json();
+		});
+
 });
 
 

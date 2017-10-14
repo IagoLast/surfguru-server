@@ -34,6 +34,6 @@
     "surfguru-parser": "^1.0.0"
   },
   "engines": {
-    "node": "8.1.x"
+    "node": "8.7.0"
   }
 }

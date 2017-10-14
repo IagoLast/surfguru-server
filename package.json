@@ -31,7 +31,7 @@
     "meteosapi": "^1.0.1",
     "meteoscrapi": "^1.2.1",
     "request": "^2.79.0",
-    "surfguru-parser": "^1.0.0"
+    "surfguru-parser": "^1.0.1"
   },
   "engines": {
     "node": "8.7.0"

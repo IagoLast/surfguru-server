@@ -5,10 +5,10 @@ const cache = require('memory-cache');
 const TTL = 1800000; // half an hour
 
 router.get('/simple/:id', function (req, res) {
-	console.debug('Entering backend');
+	console.log('Entering backend');
 	surfguru(req.params.id)
 		.then(data => {
-			console.debug('Scrapped');
+			console.log('Scrapped');
 			cache.put(req.originalUrl, data, TTL);
 			res.json(data);
 		})

@@ -1,4 +1,4 @@
-# METEOSAPI SERVER
+# SURFGURU SERVER
 
 SurfGuru rest server
 

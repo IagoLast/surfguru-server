@@ -1,4 +1,4 @@
-const surfguru = require('./parser');
+const surfguru = require('surfuru-parser');
 const express = require('express');
 const router = express.Router();
 const cache = require('memory-cache');
@@ -8,7 +8,6 @@ router.get('/simple/:id', function (req, res) {
 	console.log('Entering backend');
 	surfguru(req.params.id)
 		.then(data => {
-			console.log('Scrapped');
 			cache.put(req.originalUrl, data, TTL);
 			res.json(data);
 		})

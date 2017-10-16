@@ -18,7 +18,7 @@ async function scrap(id) {
         console.debug('Browser launched');
         const page = await browser.newPage();
         console.debug('Page opened');
-        await page.goto(`https://www.windguru.cz/${id}`);
+        await page.goto(`https://www.windguru.cz/${id}`, { waitUntil: 'networkidle' });
         console.debug('Page loaded');
         return await page.evaluate(_getData);
     }

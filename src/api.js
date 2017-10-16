@@ -1,4 +1,4 @@
-const surfguru = require('surfuru-parser');
+const surfguru = require('surfguru-parser');
 const express = require('express');
 const router = express.Router();
 const cache = require('memory-cache');
